@@ -582,7 +582,7 @@ header .fa-bars{
 
 
 /* media queries  */
-@media (max-width:991px){
+@media (max-width:1200px){
     
     html{
         font-size: 55%;
@@ -597,6 +597,12 @@ header .fa-bars{
     .home{
         background-position: left;
     }
+    .products-1 .product-photo .products-photos .small-image .PRODUCTS-image img{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+
+}
 
 }
 

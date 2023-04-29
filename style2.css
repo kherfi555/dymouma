@@ -83,10 +83,11 @@ html{
     width: 430px;
 }
 .products-1 .product-photo .products-photos .small-image {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 5px;
     margin-left: -5px;
+    flex-direction: column;
 }
 .products-1 .product-photo .products-photos .small-image .PRODUCTS-image img{
     width: 600px;
